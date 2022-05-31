@@ -1,0 +1,22 @@
+{
+  "name": "ts-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zakisee/ts-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zakisee/ts-practice/issues"
+  },
+  "homepage": "https://github.com/Zakisee/ts-practice#readme",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
+}
