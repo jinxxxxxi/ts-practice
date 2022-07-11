@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "tsc -v",
+    "dev": " tsc --build tsconfig.json --watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/Zakisee/ts-practice#readme",
   "dependencies": {
     "@type-challenges/utils": "^0.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
