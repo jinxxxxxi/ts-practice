@@ -93,7 +93,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "practice/learning/*"
+    "practice/learning/**/*"
   ],
   "exclude": [
     "node_modules",
