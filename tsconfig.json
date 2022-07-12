@@ -43,7 +43,7 @@
     // "declarationMap": true, /* Create sourcemaps for d.ts files. */
     // "emitDeclarationOnly": true,                      /* Only output d.ts files and not JavaScript files. */
     // "sourceMap": true, /* Create source map files for emitted JavaScript files. */
-    "outFile": "./practice/learning/dist.js", /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+    "outFile": "learning/dist.js", /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
     // "outDir": "./",                                   /* Specify an output folder for all emitted files. */
     "removeComments": true, /* Disable emitting comments. */
     // "noEmit": true,                                   /* Disable emitting files from a compilation. */
@@ -93,7 +93,7 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "practice/learning/**/*"
+    "learning/**/*"
   ],
   "exclude": [
     "node_modules",
