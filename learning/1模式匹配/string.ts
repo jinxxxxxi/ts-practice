@@ -25,7 +25,7 @@ type resFault = ReplaceStr<'I am a apple', '1', 'pig'>
 
 // ----------------------------------------------------------------
 //实现去掉空白字符的 Trim
-// 因为我们不知道有多少个空白字符，所以只能一个个匹配和去掉，需要递归
+// 因为我们不知道有多少个空白字符，所以只能一个个匹配和去掉，需要**递归**
 
 // 先处理右边
 type trimStrRight<str extends string> = str extends `${infer rest}${
