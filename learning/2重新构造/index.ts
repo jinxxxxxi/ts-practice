@@ -1,5 +1,5 @@
 type HandleObject<Obj extends object> = {
-  [Key in keyof Obj]: `${Key}, ${Obj[Key]}`
+  [Key in keyof Obj]: `${Key & string}${Obj[Key] & number}`
 }
 
 type HandleObjectRes = HandleObject<{
